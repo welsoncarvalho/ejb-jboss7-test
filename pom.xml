@@ -40,9 +40,10 @@
         <configuration>
           <ejbVersion>3.0</ejbVersion>
           <generateClient>true</generateClient>
-     	  <clientExcludes>
-     	  	<clientExclude>br/com/teste/ejb/impl/*</clientExclude>
-     	  </clientExcludes>
+     	  <clientIncludes>
+     	  	<clientInclude>com/test/ejb/jboss7/model/*</clientInclude>
+     	  	<clientInclude>com/test/ejb/jboss7/service/*</clientInclude>
+     	  </clientIncludes>
         </configuration>
       </plugin>
     </plugins>
