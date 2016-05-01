@@ -4,7 +4,7 @@
 
   <groupId>com.test</groupId>
   <artifactId>ejb-jboss7-test</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.0-SNAPSHOT</version>
   <packaging>ejb</packaging>
 
   <name>ejb-teste</name>
